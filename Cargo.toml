@@ -1,0 +1,8 @@
+[package]
+name = "async-tcp-command-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mio = { version = "1", features = ["os-poll", "net", "log"] }
+regex = "1"
